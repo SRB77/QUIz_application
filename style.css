@@ -375,8 +375,104 @@ footer button.show{
     color: #007bff;
     background: #fff;
 }
-
 .buttons button.quit:hover{
     color: #fff;
     background: #007bff;
+}
+@media (max-width: 400px) {
+  .info_box,
+  .quiz_box,
+  .result_box {
+    width: 90vw;
+    padding: 15px;
+  }
+
+  .start_btn button {
+    font-size: 20px;
+    padding: 12px 24px;
+  }
+
+  .info_box .info-title {
+    font-size: 18px;
+    padding: 0 20px;
+  }
+
+  .info_box .info-list .info {
+    font-size: 15px;
+  }
+
+  .info_box .buttons {
+    flex-direction: column;
+    gap: 10px;
+    height: auto;
+    padding: 10px 20px;
+  }
+
+  .info_box .buttons button {
+    width: 100%;
+    font-size: 15px;
+  }
+
+  .quiz_box header {
+    flex-direction: column;
+    height: auto;
+    gap: 10px;
+    padding: 10px 15px;
+  }
+
+  .quiz_box header .title {
+    font-size: 18px;
+  }
+
+  .quiz_box header .timer {
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  section .que_text {
+    font-size: 20px;
+  }
+
+  section .option_list .option {
+    font-size: 15px;
+    padding: 10px;
+  }
+
+  footer {
+    flex-direction: column;
+    gap: 10px;
+    height: auto;
+    padding: 15px;
+  }
+
+  footer button {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .result_box .icon {
+    font-size: 70px;
+  }
+
+  .result_box .complete_text {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .result_box .score_text span {
+    font-size: 16px;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .result_box .buttons {
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+  }
+
+  .result_box .buttons button {
+    width: 100%;
+    font-size: 16px;
+  }
 }
